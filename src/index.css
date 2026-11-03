@@ -32,7 +32,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 ::selection { color: #fff; background: #0a7656; }
 
 h1, h2, h3, p { margin-top: 0; }
-#root { width: 100%; overflow: hidden; }
+#root { width: 100%; overflow: clip; }
 .container { width: min(1120px, calc(100% - 48px)); margin-inline: auto; }
 .section-space { padding-block: 84px; }
 .section-tint { background: var(--lavender); }

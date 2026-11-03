@@ -1,5 +1,6 @@
 /* Shared layout and typography */
-.site-header { height: 78px; position: sticky; inset: 0 0 auto; z-index: 20; background: rgba(255,255,255,.92); backdrop-filter: blur(16px); border-bottom: 1px solid rgba(30,65,51,.06); }
+.site-header { height: 78px; position: sticky; inset: 0 0 auto; z-index: 20; background: rgba(255,255,255,.92); backdrop-filter: blur(16px); border-bottom: 1px solid rgba(30,65,51,.06); transition: transform .24s ease; }
+.site-header--hidden { transform: translateY(-100%); }
 .nav { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
 .brand { display: inline-flex; align-items: center; gap: 9px; color: var(--green); text-decoration: none; font: 800 17px/1 'Manrope', sans-serif; letter-spacing: -.5px; }
 .brand small { display: block; margin-top: 5px; color: #78877f; font: 600 7px/1 'DM Sans', sans-serif; letter-spacing: 1.15px; }

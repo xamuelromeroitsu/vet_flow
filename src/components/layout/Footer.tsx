@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
 
 const footerGroups = [
-  { title: 'PLATAFORMA', links: [{ label: 'Tecnología de Triaje', href: '/#caracteristicas' }, { label: 'Módulo para Tutores', href: '/#caracteristicas' }, { label: 'Red de Clínicas', href: '/#clinicas' }, { label: 'Red de Hospitales 24h', href: '/#clinicas' }] },
-  { title: 'PROFESIONALES', links: [{ label: 'Panel de Administración', href: '/#clinicas' }, { label: 'Preguntas Clínicas', href: '/#faq' }, { label: 'Integración de Software', href: '/#clinicas' }, { label: 'Mesa de Ayuda', href: '/#clinicas' }] },
-  { title: 'LEGAL & DATOS', links: [{ label: 'Política de Privacidad', href: '/politica-de-privacidad' }, { label: 'Términos de Uso', href: '/politica-de-privacidad' }, { label: 'Aviso Médico / Legal', href: '/politica-de-privacidad' }, { label: 'Política de Cookies', href: '/politica-de-cookies' }] },
+  { title: 'PLATAFORMA', links: [{ label: 'Características', href: '/#caracteristicas' }, { label: 'Cómo funciona', href: '/#como-funciona' }] },
+  { title: 'CONTACTO', links: [{ label: 'Red de clínicas', href: '/#clinicas' }, { label: 'Preguntas frecuentes', href: '/#faq' }] },
+  { title: 'LEGAL Y DATOS', links: [{ label: 'Política de privacidad', href: '/politica-de-privacidad' }, { label: 'Política de cookies', href: '/politica-de-cookies' }] },
 ]
 
 export function Footer() {
